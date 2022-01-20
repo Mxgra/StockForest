@@ -7,7 +7,7 @@ Anyhow, as mentioned in the notebook, I decided to try a Random Forest model and
 
 ## Overview
 
-I'm working with day-to-day data (one-day candles). I use the about 3700 tickers from the last 10 years. I also did the last 5 years with only german tickers, but thats another sotry.
+I'm working with day-to-day data (one-day candles). I use about 3700 tickers from the last 10 years. I also did the last 5 years with only german tickers, but thats another sotry.
 To predict is wether the price of a stock rises 15% during the next 2 weeks. The strategy focuses on Volume, which is represented in the indicator selection.
 My thinking is, a basic model with (probably) poor data can't realiably find an edge, but it could find patterns that other, bigger and better players are creating. Basically it's a trend-following strategy.
 
